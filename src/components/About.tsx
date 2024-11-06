@@ -5,8 +5,8 @@ import { Code2, Palette, Terminal } from 'lucide-react';
 const About = () => {
   const skills = [
     { icon: <Code2 className="w-6 h-6" />, title: 'Frontend', items: ['React', 'TypeScript', 'Tailwind CSS'] },
-    { icon: <Terminal className="w-6 h-6" />, title: 'Backend', items: ['Node.js', 'Python', 'PostgreSQL'] },
-    { icon: <Palette className="w-6 h-6" />, title: 'Design', items: ['Figma', 'Adobe XD', 'UI/UX'] },
+    { icon: <Terminal className="w-6 h-6" />, title: 'Backend', items: ['Node.js', 'Python', 'Mongodb'] },
+    { icon: <Palette className="w-6 h-6" />, title: 'Design', items: ['Figma',  'UI/UX'] },
   ];
 
   return (
