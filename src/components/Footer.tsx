@@ -12,7 +12,7 @@ const Footer = () => {
           
           <div className="flex space-x-4">
             <a
-              href="https://github.com"
+              href="https://github.com/dagi420"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors"
@@ -28,7 +28,7 @@ const Footer = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:dagidaniel00@gmail.com"
               className="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors"
             >
               <Mail className="w-5 h-5" />

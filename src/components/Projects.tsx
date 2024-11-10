@@ -10,7 +10,7 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=800',
       tags: ['Php', 'CSS/html', 'Mysql'],
       liveUrl: '#',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/dagi420',
     },
     {
       title: 'Budget Tracking app',
@@ -18,15 +18,15 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&q=80&w=800',
       tags: ['Tailwind', 'mongodb', 'typescript'],
       liveUrl: '#',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/dagi420',
     },
     {
       title: 'Website for an Architectural firm',
-      description: 'Analytics dashboard for social media management',
+      description: 'Simple Landing page that displays Projects and Company info',
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
       tags: ['html/css', 'js',],
       liveUrl: 'bekur.vercel.app',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/dagi420',
     },
   ];
 

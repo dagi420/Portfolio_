@@ -22,10 +22,10 @@ const About = () => {
           
           <div className="mb-12">
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
-              I'm a passionate developer with a keen eye for design and a love for creating beautiful, functional web applications. With several years of experience in both frontend and backend development, I bring ideas to life through clean code and intuitive user experiences.
+              I'm a passionate developer with a keen eye for design and a love for creating beautiful, functional web applications. With years of experience in both frontend and backend development, I bring ideas to life through clean code and intuitive user experiences.
             </p>
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through technical writing and mentoring.
+              When I'm not coding, you can find me exploring new technologies or collaborating on open-source projects.
             </p>
           </div>
 
