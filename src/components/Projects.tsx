@@ -79,7 +79,8 @@ const Projects = () => {
                 variants={itemVariants}
                 whileHover={{ 
                   scale: 1.03,
-                  transition: { duration: 0.3 }
+                  transition: { duration: 0.3 },
+                  opacity: 1,
                 }}
                 className="rounded-2xl overflow-hidden neumorph-light transition-all duration-700"
               >
@@ -89,7 +90,7 @@ const Projects = () => {
                     alt={project.title}
                     className="w-full h-48 object-cover transition-transform duration-700 group-hover:scale-110"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-secondary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center space-x-4">
+                  <div className="absolute inset-0  opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center space-x-4">
                     <motion.a
                       href={project.liveUrl}
                       target="_blank"

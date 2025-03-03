@@ -15,11 +15,11 @@ const Hero = () => {
         style={{ animationDelay: '0s' }}
       />
       <div 
-        className="absolute top-1/3 -right-4 w-72 h-72 bg-secondary/30 dark:bg-green-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"
+        className="absolute top-1/3 -right-4 w-72 h-72 bg-secondary/30 dark:bg-green-500 dark:blur-xl rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"
         style={{ animationDelay: '2s' }}
       />
       <div 
-        className="absolute -bottom-8 left-1/2 w-72 h-72 bg-primary-light/30 dark:bg-red-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"
+        className="absolute -bottom-8 left-1/2 w-72 h-72 bg-primary-light/30 dark:bg-red-500 dark:blur-xl rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"
         style={{ animationDelay: '4s' }}
       />
       <div 

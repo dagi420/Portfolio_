@@ -6,7 +6,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: <Github className="w-5 h-5" />, url: "https://github.com" },
     { icon: <Linkedin className="w-5 h-5" />, url: "https://linkedin.com" },
-    { icon: <Mail className="w-5 h-5" />, url: "mailto:your.email@example.com" },
+    { icon: <Mail className="w-5 h-5" />, url: "mailto:dagidaniel00@gmail.com" },
   ];
 
   return (
