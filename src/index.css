@@ -2,12 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-.animation-delay-2000 {
-  animation-delay: 2s;
+@layer base {
+  body {
+    @apply transition-colors duration-1000;
+  }
 }
 
-.animation-delay-4000 {
-  animation-delay: 4s;
+@layer components {
+  .neumorph-button {
+    @apply transition-all duration-500 hover:scale-105 active:scale-95;
+  }
+  
+  .neumorph-light {
+    @apply bg-light-surface shadow-neumorph-light dark:bg-dark-surface dark:shadow-neumorph-dark transition-all duration-700;
+  }
+  
+  .neumorph-inset {
+    @apply bg-light-darker shadow-neumorph-inset-light dark:bg-dark-lighter dark:shadow-neumorph-inset-dark transition-all duration-700;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent animate-gradient;
+  }
 }
 
 @layer utilities {
@@ -17,4 +33,62 @@
   .animation-delay-4000 {
     animation-delay: 4s;
   }
+  .animation-delay-6000 {
+    animation-delay: 6s;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(100vh) scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(50vh) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-20vh) scale(0.5);
+    opacity: 0;
+  }
+}
+
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-float {
+  animation: float 15s ease-in-out infinite;
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animate-gradient {
+  animation: gradient 8s ease infinite;
+  background-size: 200% 200%;
 }
