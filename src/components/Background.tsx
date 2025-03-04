@@ -67,7 +67,7 @@ const Background = () => {
       });
     };
 
-    const drawLines = (point: Point, index: number, time: number) => {
+    const drawLines = (point: Point, index: number) => {
       for (let i = index + 1; i < points.length; i++) {
         const p2 = points[i];
         const dx = point.x - p2.x;
@@ -150,7 +150,7 @@ const Background = () => {
         ctx.fill();
 
         // Draw connecting lines
-        drawLines(point, index, time);
+        drawLines(point, index);
       });
 
       animationRef.current = requestAnimationFrame(animate);
