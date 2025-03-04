@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Moon, Sun, Download } from 'lucide-react';
-import CV from '../assets/Dagim Daniel CV_2025.pdf';
+import CV from '../assets/DagimDaniel2025Cv.pdf';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

@@ -5,30 +5,30 @@ import Background from './Background';
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen pt-5 flex items-center relative overflow-hidden">
+    <section id="home" className="min-h-screen pt-20 flex items-center relative overflow-hidden">
       
       <Background />
       
       {/* Animated Blobs */}
       <div 
         className="absolute top-1/4 -left-4 w-48 h-48 md:w-72 md:h-72 bg-primary/30 dark:bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"
-        style={{ animationDelay: '0s', zIndex: 1 }}
+        style={{ animationDelay: '0s' }}
       />
       <div 
         className="absolute top-1/3 -right-4 w-48 h-48 md:w-72 md:h-72 bg-secondary/30 dark:bg-green-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"
-        style={{ animationDelay: '2s', zIndex: 1 }}
+        style={{ animationDelay: '2s' }}
       />
       <div 
         className="absolute -bottom-8 left-1/2 w-48 h-48 md:w-72 md:h-72 bg-primary-light/30 dark:bg-red-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"
-        style={{ animationDelay: '4s', zIndex: 1 }}
+        style={{ animationDelay: '4s' }}
       />
       <div 
         className="absolute top-2/3 left-1/4 w-32 h-32 md:w-56 md:h-56 bg-secondary-light/30 dark:bg-yellow-100 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-6000"
-        style={{ animationDelay: '6s', zIndex: 1 }}
+        style={{ animationDelay: '6s' }}
       />
 
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-4xl mx-auto text-center">
+      <div className="container mx-auto px-4 relative">
+        <div className="max-w-4xl m-h mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
